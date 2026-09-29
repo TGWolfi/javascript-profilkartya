@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="hu">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="JavaScript és Git alapozó profilkártya mini-projekt."
-    >
+    />
     <title>Profilkártya-szerkesztő</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
   </head>
   <body>
@@ -40,7 +40,7 @@
               value="Kódoló Kata"
               maxlength="40"
               required
-            >
+            />
           </div>
 
           <div class="form-field">
@@ -52,7 +52,7 @@
               value="Junior frontend fejlesztő"
               maxlength="60"
               required
-            >
+            />
           </div>
 
           <div class="form-field">
@@ -76,9 +76,22 @@
             >
               Alapértékek
             </button>
+            <button
+              class="button button--theme"
+              id="themeButton"
+              type="button"
+              aria-pressed="false"
+            >
+              Sötét téma
+            </button>
           </div>
 
-          <p id="statusMessage" class="status" role="status" aria-live="polite"></p>
+          <p
+            id="statusMessage"
+            class="status"
+            role="status"
+            aria-live="polite"
+          ></p>
         </form>
       </section>
 
